@@ -7,7 +7,8 @@ The `msse` fix should be built as a [LAMMPS Package](https://docs.lammps.org/Pac
 For example:
 
 ```bash
-cmake -D PKG_RIGID=yes -D PKG_MOLECULE=yes -D PKG_KSPACE=yes -D PKG_MSSE=yes ../cmake
+cmake -S . -B build -D PKG_RIGID=yes -D PKG_MOLECULE=yes -D PKG_KSPACE=yes -D PKG_MSSE=yes cmake
+cmake --build build
 ```
 
 You should check how other LAMMPS packages, such as `KSPACE`, are integrated into the LAMMPS CMake configuration process in order to do this properly.
