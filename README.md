@@ -20,13 +20,13 @@ You can run the test by executing the `test.sh` script, or by executing `<path_t
 In the Answers section below, provide a 2-3 paragraph description of what you have learned about LAMMPS.
 In particular:
 
-1. Explain how your fix causes "Hello World!" to be printed every timestep.
+1. Explain how your fix causes "Hello World!" to be printed every timestep.  In particular, how does the fix fit into the overall architecture of LAMMPS?
 2. From a software engineering standpoint, what are some appealing features of the "fix" concept, as implemented in LAMMPS?
 3. At a basic level, how do "LAMMPS Packages" fit into LAMMPS' overall CMake configuration strategy?
 
 ## Hints
 
-There is very little work that actually needs to be done to solve this problem, but you may need to spend a fair bit of time examining how LAMMPS is structured in order to understand exactly what it is that you need to do.
+There is very little coding that actually needs to be done to solve this problem, but you may need to spend a fair bit of time examining how LAMMPS is structured in order to understand exactly what it is that you need to do.
 You can try reading the LAMMPS documentation, examining existing parts of the code, and experimenting with things yourself.
 
 You may find the following line useful:
